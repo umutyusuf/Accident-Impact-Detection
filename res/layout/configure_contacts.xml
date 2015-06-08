@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accident_recognition_main_screen_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/accident_recognition_margin_20dp"
+        android:layout_marginTop="@dimen/accident_recognition_margin_20dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/accident_recognition_no_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/accident_recognition_no_contacts_info"
+            android:textColor="@color/accident_recognition_text_color" />
+
+        <Button
+            android:id="@+id/accident_recognition_add_contact_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="@dimen/accident_recognition_margin_20dp"
+            android:background="@drawable/custom_button_selector"
+            android:text="@string/accident_recognition_configure_contact_add_contact_number" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" >
+
+        <LinearLayout
+            android:id="@+id/accident_recognition_configure_contacts_contacts_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/accident_recognition_configure_contacts_select_from_contacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_button_selector"
+                android:ems="10"
+                android:text="@string/accident_recognition_configure_contact_selecect_from_contacts" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ListView
+        android:id="@+id/accident_recognition_accident_configure_contact_contacts_listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/accident_recognition_margin_20dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/accident_recognition_cofigure_contacts_apply_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button_selector"
+                android:text="@string/accident_recognition_configure_contact_apply" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/accident_recognition_cofigure_contacts_delete_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button_selector"
+                android:text="@string/accident_recognition_configure_contact_delete" />
+        </TableRow>
+    </LinearLayout>
+
+</LinearLayout>

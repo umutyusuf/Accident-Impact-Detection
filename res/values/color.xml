@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="accident_recognition_main_screen_background">#5B91E9</color>
+    <color name="accident_recognition_displayer_border_Color">#999999</color>
+    <color name="accident_recognition_text_color">#000000</color>
+    <color name="accident_recognition_hint_text_color">#999999</color>
+    <color name="accident_recognition_custom_button_stroke_color_state1">#11DD33</color>
+    <color name="accident_recognition_custom_button_solid_color_state1">#99A5A0</color>
+    <color name="accident_recognition_custom_button_stroke_color_state2">#AADD11</color>
+    <color name="accident_recognition_custom_button_solid_color_state2">#FFAA55</color>
+    <color name="accident_recognition_stop_button_stroke_color_state1">#FF11AA</color>
+    <color name="RED">#FF0000</color>
+    <color name="BLUE">#0000FF</color>
+    <color name="GREEN">#00FF00</color>
+
+</resources>

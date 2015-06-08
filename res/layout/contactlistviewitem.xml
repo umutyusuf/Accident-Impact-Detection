@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.umut.accidentrecognitioncp.utils.CheckableLinearLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/accident_recognition_margin_10dp"
+    android:layout_marginLeft="@dimen/accident_recognition_margin_20dp"
+    android:orientation="vertical" >
+
+    <TextView
+       android:id="@+id/accident_recognition_contacts_list_adapter_name_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/accident_recognition_contacts_list_adapter_phone_number_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</com.umut.accidentrecognitioncp.utils.CheckableLinearLayout>

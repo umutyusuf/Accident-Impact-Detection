@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AccidentRecognition</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="accident_recognition_trigger">Başla</string>
+    <string name="accident_recognition_app_description">Kaza Tespiti Uygulaması</string>
+    <string name="accident_rocognition_contact_configure">İrtibat Düzenleme</string>
+    <string name="accident_recognition_accelerometer_values">İvme Değerleri</string>
+    <string name="accident_recognition_x">X :</string>
+    <string name="accident_recognition_y">Y :</string>
+    <string name="accident_recognition_z">Z :</string>
+    <string name="accident_recognition_no_contacts_info">Olağan bir kaza durumunda haberlendirmek istediğiniz şahısları belirleyiniz.</string>
+    <string name="accident_recognition_configure_contact_apply">Güncelle</string>
+    <string name="accident_recognition_configure_contact_save">Kaydet</string>
+    <string name="accident_recognition_configure_contact_update">Güncelle</string>
+    <string name="accident_recognition_configure_contact_selecect_from_contacts">Rehberden Seç</string>
+    <string name="accident_recognition_configure_contact_info_text1">Manuel giriş için irtibat sayısı seçiniz</string>
+    <string name="accident_recognition_configure_contact_contact_number">İrtibat Numarası</string>
+    <string name="accident_recognition_configure_contact_add_contact_number">Ekle</string>
+    <string name="accident_recognition_configure_contact_delete">Sil</string>
+    <string name="accident_recognition_configure_contact_dynamic_edit_text_name_hint">İrtibat İsmi</string>
+    <string name="accindet_recognition_accident_screen">Kaza Ekranı</string>
+    <string name="accident_recognition_configure_contact_dynamic_edit_text_phone_number_hint">Numarası</string>
+	<string name="accident_recognition_accident_cancel">İptal Et</string>
+	<string name="accident_recognition_menu_pick_algorithm">Algoritma Seç</string>
+</resources>
